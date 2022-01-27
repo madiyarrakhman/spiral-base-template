@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace App\Bootloader;
 
-use App\Middleware\LocaleSelector;
+use App\Ports\Http\Middleware\LocaleSelector;
 use Spiral\Boot\Bootloader\Bootloader;
 use Spiral\Bootloader\Http\HttpBootloader;
 
