@@ -9,6 +9,6 @@ class HomeController
 {
     public function actionIndex()
     {
-
+        print_r('Hello world');
     }
 }
